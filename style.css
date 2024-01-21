@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Mulish", sans-serif;
+}
+/* shared styles */
+.box {
+  border-radius: 8px;
+  background: #fff;
+  width: 154px;
+  height: 42px;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+body {
+  width: 1170px;
+  height: 500px;
+  flex-shrink: 0;
+}
+header{
+  
+}
+/* nav header style */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-head {
+  display: flex;
+}
+.nav-head > img {
+  width: 48px;
+  height: 56.008px;
+}
+.web-name {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 2.2em;
+  font-weight: 800;
+}
+.web-name .red-name {
+  color: #ff5400;
+  font-family: Mulish;
+  font-weight: 800;
+}
+.nav-navber {
+  display: flex;
+}
+.nav-manu {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-item {
+  list-style: none;
+  text-align: center;
+  margin-right: 44px;
+}
+.nav-link {
+  color: #ff5400;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+.nav-link1 {
+  color: #424247;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+}
+/* NAV BANNER STYLE */
+.container {
+  background-image: url("Images/Group1100.png");
+  /* linear-gradient(180deg, rgba(19, 19, 24, 0.8) 0%, rgba(19, 19, 24, 0) 100%); */
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  width: calc(100% - 135px);
+  margin: 0 auto;
+}
+.nav-banner-content {
+  /* display: block; */
+}
+.banner-titel {
+  color: #fff;
+  font-family: Mulish;
+  font-size: 64px;
+  text-align: center;
+  padding: 106px 287px 0 287px;
+  font-weight: 800;
+}
+.banner-dircription {
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  width: 676px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+.nav-banner-input {
+  width: 174px;
+  height: 52px;
+  margin: 0px auto;
+  padding: 20px 234px;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  padding: 16px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.151);
+  padding-bottom: 110px;
+  gap: 24px;
+}
+.input1 {
+  display: flex;
+  justify-content: center;
+}
+.btn-primary {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #ff5400;
+  margin: 0 auto;
+}
+.btn-img {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+.img-text {
+  align-items: center;
+  top: 12px;
+}
