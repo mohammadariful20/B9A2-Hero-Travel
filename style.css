@@ -4,6 +4,20 @@
   font-family: "Mulish", sans-serif;
 }
 /* shared styles */
+.btn-primary-2 {
+  border-radius: 8px;
+  background: #ff5400;
+  width: 174px;
+  height: 52px;
+  flex-shrink: 0;
+  color: #fff;
+  text-align: start;
+  font-size: 1.25em;
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
 .box {
   border-radius: 8px;
   background: #fff;
@@ -17,9 +31,7 @@ body {
   height: 500px;
   flex-shrink: 0;
 }
-header{
-  
-}
+
 /* nav header style */
 nav {
   display: flex;
@@ -28,6 +40,8 @@ nav {
 }
 .nav-head {
   display: flex;
+  margin-left: 40px;
+  padding: 25px;
 }
 .nav-head > img {
   width: 48px;
@@ -79,13 +93,13 @@ nav {
   width: calc(100% - 135px);
   margin: 0 auto;
 }
-.nav-banner-content {
-  /* display: block; */
-}
+/* .nav-banner-content {
+  display: block;
+} */
 .banner-titel {
   color: #fff;
   font-family: Mulish;
-  font-size: 64px;
+  font-size: 49px;
   text-align: center;
   padding: 106px 287px 0 287px;
   font-weight: 800;
@@ -135,4 +149,41 @@ nav {
 .img-text {
   align-items: center;
   top: 12px;
+}
+
+/* contern and image section style */
+
+.container-2 {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 0 0 66px;
+  gap: 50px;
+  margin-right: 60px;
+}
+.content-heading {
+  color: #131318;
+  text-align: start;
+  font-size: 2.5em;
+  font-weight: 800;
+}
+.content-text {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 24px 0px;
+}
+.unorder-list {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 1em;
+  font-weight: 400;
+  line-height: 26px;
+  margin-left: 23px;
+}
+.section-img {
+  width: 540px;
+  height: 550px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
