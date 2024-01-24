@@ -432,3 +432,45 @@ video {
   padding-left: 20px;
   margin-bottom: 1rem;
 }
+.footer-container {
+  width: 74rem;
+  height: 34rem;
+  flex-shrink: 0;
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer-top {
+  display: flex;
+  margin: 35px auto;
+  justify-content: center;
+  padding-top: 50px;
+}
+.footer-img {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-img > img {
+  width: 2%;
+  height: 30%;
+  margin: 50px -380px;
+}
+.footer-p {
+  width: 59.0625rem;
+  margin: 0 auto;
+  text-align: center;
+}
+.fotter-btm {
+  position: relative;
+  color: #131318;
+  font-size: 1rem;
+  font-weight: 300;
+  margin: 50px auto;
+}
+.fotter-btm p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 50px;
+  margin: 100px auto;
+}
