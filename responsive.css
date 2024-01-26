@@ -1,0 +1,140 @@
+@media screen and (max-width: 676px) {
+  /* for mobile phone   */
+  body {
+    margin-left: 0;
+    width: 100%;
+  }
+  nav{
+    flex-direction: column;
+  }
+  .nav-head > img{
+    width: 40%;
+  }
+  .nav-manu{
+    flex-direction: column;
+  }
+  .banner-titel{
+    padding: 0;
+  }
+  .nav-banner-input {
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+  }
+  #nav-input{
+    width: 80%;
+  }
+  .nav {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-head {
+    width: 100%;
+    margin-left: 0;
+  }
+  .banner-dircription {
+    width: 100%;
+  }
+  .container {
+    width: 100%;
+  }
+  .container-2 {
+    width: 98%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .content-section {
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .section-img {
+    width: 100%;
+  }
+  .galary-container-1 {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .galary-container-2 {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .galary-container-3 {
+    content: "";
+    clear: both;
+    display: block;
+  }
+  .fk-img {
+    width: 100%;
+  }
+  .topside {
+    flex-direction: column;
+    margin-left: 0;
+  }
+
+  .center-i {
+    flex-direction: column;
+    margin-left: 85px;
+  }
+  .offer-card {
+    width: 100%;
+    height: 80.25rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .small-card {
+    width: 90%;
+    left: 3.44rem;
+    top: 37rem;
+    height: 39rem;
+    border: 2px solid #fff;
+    backdrop-filter: blur(2.5px);
+    align-items: center;
+  }.card-top{
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 20px;
+  }
+  .revers {
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 20px;
+      width: 90%;
+    left: 3rem;
+    top: 37rem;
+    height: 39rem;
+    border: 2px solid #fff;
+    backdrop-filter: blur(2.5px);
+    align-items: center;
+  }
+  .input-filed{
+    width: 90%;
+  }
+  video{
+    width: 100%;
+    height: 500px;
+  }
+  /* video.scale2{
+    -moz-transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+    -o-transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    transform:scale(1.5);
+  } */
+  body{
+    width: 100%;
+  }
+  .footer-container{
+    width: 100%;
+    background: rgba(19, 19, 24, 0.05);
+    margin-left: 95px;
+  }
+  .footer-p{
+    width: 100%;
+  }
+}

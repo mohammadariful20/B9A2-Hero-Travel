@@ -28,7 +28,6 @@
 }
 body {
   width: 1170px;
-  height: 500px;
   flex-shrink: 0;
   margin-left: 100px;
 }
@@ -369,6 +368,11 @@ img.galary-img {
   top: 3.5rem;
   margin: 15px 0;
 }
+#content-border{
+  border:1px solid #FF5400;
+  border-radius: 1rem;
+  padding: 1rem;
+}
 .card-top {
   display: flex;
   justify-content: space-evenly;
@@ -422,6 +426,8 @@ img.galary-img {
 video {
   border-radius: 0.7rem;
   margin-top: 0;
+  width:610px;
+  height:414px;
 }
 .input-filed {
   border-radius: 0.5rem;
